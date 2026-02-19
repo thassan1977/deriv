@@ -8,8 +8,21 @@
 
 ![System Architecture Placeholder](docs/architecture.png)
 
-> Replace this image with your architecture diagram or dashboard screenshot.  
-> Recommended location: `docs/images/system-overview.png`
+java BE
+![java BE](docs/java_run.png)
+
+Python publisher
+![Python publisher](docs/python_tx_publisher.png)
+
+
+Python Investigator
+![Python Investigator](docs/python_investigator.png)
+
+
+Dashboard
+![Dashboard](docs/dashboard1.png)
+![Dashboard](docs/dashboard2.png)
+![Dashboard](docs/single_case.png)
 
 ---
 
