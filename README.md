@@ -6,7 +6,7 @@
 
 ## 📸 System Overview
 
-![System Architecture Placeholder](docs/images/system-overview.png)
+![System Architecture Placeholder](docs/architecture.png)
 
 > Replace this image with your architecture diagram or dashboard screenshot.  
 > Recommended location: `docs/images/system-overview.png`
