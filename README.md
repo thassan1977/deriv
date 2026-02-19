@@ -30,3 +30,9 @@ API Documentation
    /api/cases        GET        Retrieve all active fraud cases.
    /api/cases/{id}   GETGet     detailed analysis for a specific case.
    /api/stats        GETGet     real-time statistics (Blocked/Approved/Manual).
+
+
+# there are three branches:
+1- main : for java spring boot app.
+2- python-ai: for populating data in DB and for publishig transactions to redis queue on java and to do the ai analysis part.
+2- dashboard: a small react (2 screens) for showing current dashboard stats in realtime and check individual case to approve or block it.
