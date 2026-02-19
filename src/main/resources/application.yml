@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: deriv_fraud
+
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/frauddb}
+    username: ${DATABASE_USER:user}
+    password:  ${DATABASE_PASSWORD:123456}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      pool-name: HikariPool-1
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 30000     # 30 seconds
+      max-lifetime: 600000    # 10 minutes
+      connection-timeout: 30000
+      leak-detection-threshold: 2000
+  jpa:
+    properties:
+      hibernate:
+        format_sql: false
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  task:
+    scheduling:
+      pool:
+        size: 10
+
+server:
+  port: 8080
